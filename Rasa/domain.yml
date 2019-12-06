@@ -1,0 +1,41 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - bot_mood 
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_my_mood
+
+templates:
+  utter_greet:
+  - text: "Hey! ¿Cómo estás?"
+
+  utter_cheer_up:
+  - text: "Acá hay algo para que te alegres un poquito:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "¿Esto te ayudó?"
+
+  utter_happy:
+  - text: "Genial, sigue adelante!"
+
+  utter_goodbye:
+  - text: "Nos vemos!"
+
+  utter_iamabot:
+  - text: "Soy un bot, es más, tú me creaste"
+
+  utter_my_mood:
+  - text: "En verdad no tengo sentimientos, pero si los tuviera probablmente estaria bien!"
