@@ -3,10 +3,13 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
   - bot_mood 
+  - faq_emergency
+  - faq_productos_salud
+  - faq_productos_ami
+  - faq_productos_particular
+  - faq_productos_vehicular
 
 actions:
 - utter_greet
@@ -16,6 +19,12 @@ actions:
 - utter_goodbye
 - utter_iamabot
 - utter_my_mood
+- utter_emergency
+- utter_productos_salud
+- utter_productos_ami
+- utter_productos_particular
+- utter_productos_vehicular
+
 
 templates:
   utter_greet:
@@ -39,3 +48,18 @@ templates:
 
   utter_my_mood:
   - text: "En verdad no tengo sentimientos, pero si los tuviera probablmente estaria bien!"
+
+  utter_emergency:
+  - text: "Oh no! espero que todo esté bien. El número de emergencia es 411 11 11 en Lima" 
+
+  utter_productos_salud:
+  - text: "Estás de suerte! Hoy tenemos ofertas especiales en seguro de salud particular y ami, ¿cuál de estos dos te interesa?"
+
+  utter_productos_ami:
+  - text: "¡Excelente elección para proteger a tu familia! ¿Quieres saber más detalles?"
+
+  utter_productos_particular:
+  - text: "Bien! Tu salud no podría estar en mejores manos. ¿Comenzamos con la cotización?"
+
+  utter_productos_vehicular:
+  - text: "En RIMAC tenemos seguros vehiculares para todos, ¿cuál es tu tipo de auto?"

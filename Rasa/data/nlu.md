@@ -1,3 +1,36 @@
+##intent:faq_emergency
+- numero de emergencia
+- cual es el numero de emergencia
+- quiero llamar por una emergencia
+- tengo una emergencia
+- auxilio
+- tuve un accidente
+- tuve un choque
+
+##intent:faq_productos_salud
+- dime los productos de salud
+- quiero un seguro de salud
+- qué opciones de seguros de salud
+- comprar un seguro de salud
+- quiero adquirir un seguro de salud
+- listado productos de salud
+
+##intent:faq_productos_ami
+- ami
+- seguro de salud integral
+
+##intent:faq_productos_particular
+- seguro de salud particular
+- salud particular 
+
+##intent:faq_productos_vehicular
+- quiero un seguro vehicular
+- comprar seguro para mi carro
+- quiero un seguro de vehiculos
+- seguro para mi camion
+- seguro para mi taxi
+- seguro para mi carro
+
 ## intent:greet
 - hey
 - hola
@@ -5,6 +38,7 @@
 - buen dia
 - buenas tardes
 - hola ahi
+- holitas
 
 ## intent:goodbye
 - bye
@@ -26,27 +60,6 @@
 - no me gusta eso
 - no hay forma
 - no realmente
-
-## intent:mood_great
-- perfecto
-- muy bien
-- genial
-- asombroso
-- me siento muy bien
-- estoy genial
-- estoy bien
-
-## intent:mood_unhappy
-- triste
-- muy triste
-- no estoy feliz
-- mal
-- muy mal
-- fatal
-- terrible
-- no muy bien
-- extremadamente triste
-- tan triste
 
 ## intent:bot_challenge
 - eres un bot?

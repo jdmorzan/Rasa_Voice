@@ -1,26 +1,26 @@
-## happy path
-* greet
+## hello
+* greets
   - utter_greet
-* mood_great
-  - utter_happy
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+##emergency
+* faq_emergency
+  - utter_emergency
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+##salud_general
+* faq_productos_salud
+  - utter_productos_salud
+
+##salud_ami
+* faq_productos_ami
+  - utter_productos_ami
+
+##salud_particular
+* faq_productos_particular
+  - utter_productos_particular
+
+##salud_vehicular
+* faq_productos_vehicular
+  - utter_productos_vehicular
 
 ## say goodbye
 * goodbye
